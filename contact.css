@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Poppins:wght@500&display=swap');
+
+body{
+    background-color: #f5f5f5;
+    margin: 1rem;
+}
+.taskbar{
+   background-color: #2b2b2b;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 2rem;
+   font-size: 1rem;
+   font-family: 'Alegreya Sans SC', sans-serif;
+   padding: 1rem;
+   box-shadow: 0 10px 10px rgb(3, 3, 3);
+}
+.home{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.about{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.services{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.contact{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+/* CONTENT! CONTENT! CONTENT! */
+
+.container2{
+    margin-top:1rem;
+    padding-top: 3rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    gap: 0.5rem;
+    box-shadow: 0 10px 10px rgb(3, 3, 3);
+}
+
+.imgcontact{
+    width:100%;
+    object-fit: contain;
+    place-items: center;
+}
+.contactinfo{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    place-items:center center;
+}
+h1{
+   font-family: 'Alegreya Sans SC', sans-serif;
+}
+.imglink{
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+.alink{
+    text-decoration: none;
+    color:#2b2b2b;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 600;
+}
+.links{
+    padding: 3rem;
+    gap: 1rem;
+    text-align: center; 
+}
+
+input[type=text], select, textarea {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #f5f5f5; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+  
+ 
+input[type=submit] {
+    background-color: #fec02f;
+    color: #f5f5f5;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+
+input[type=submit]:hover {
+    background-color: #2b2b2b;
+}
+  
+
+.container3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 819px){
+    .container2{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    .imgcontact{
+        max-width: 280px;
+    }
+    
+
+}
+@media only screen and (max-width: 1023px){
+    .container2{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    .alink{
+        font-size: 1rem;
+    }
+    .imgcontact{
+        max-width: 300px;
+    }
+
+}
+@media only screen and (min-width: 1024px){
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    .alink{
+        font-size: 1.3rem;
+    }
+    .imgcontact{
+        max-width: 450px;
+    }
+}

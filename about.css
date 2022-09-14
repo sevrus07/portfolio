@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Poppins:wght@500&display=swap');
+
+body{
+    background-color: #f5f5f5;
+    margin: 1rem;
+}
+.taskbar{
+   background-color: #2b2b2b;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 2rem;
+   font-size: 1rem;
+   font-family: 'Alegreya Sans SC', sans-serif;
+   padding: 1rem;
+   box-shadow: 0 10px 10px rgb(3, 3, 3);
+
+  
+}
+.home{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.about{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.services{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.contact{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+
+
+
+/* CONTENT! CONTENT! CONTENT! */
+
+.container2{
+    background-color: #2b2b2b;
+    padding: 3rem;
+    margin: 0.3rem;
+    place-items: center center;
+    display: grid;
+    box-shadow: 0 10px 10px rgb(3, 3, 3);
+}
+.content1{
+    padding:1rem;
+    background-color: #2b2b2b;
+}
+.content2{
+    padding:1rem;
+    background-color: #2b2b2b;
+
+}
+
+.flower{
+    
+    width: 100%;
+}
+.where{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1;
+    object-fit: contain;
+}
+.description{
+    grid-column: 2/3;
+    grid-row: 2;
+    color: #f5f5f5;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+
+/* MEDIA! MEDIA! MEDIA! MEDIA! */
+
+@media only screen and (max-width: 819px){
+    .container2{
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .content1{
+        display: grid;
+        grid-row: 1;
+        place-items:center center;
+        
+    }
+    .content2{
+        display: grid;
+        grid-row: 2/3;
+        place-items: top center;
+        
+    }
+    .flower{
+        max-width: 200px;
+        text-align: center;
+    }
+    .description{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .container2{
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .content1{
+        display: grid;
+        grid-row: 1;
+        place-items:center;
+        
+    }
+    .content2{
+        display: grid;
+        grid-row: 2/3;
+        place-items: center;
+    }
+    .flower{
+        max-width: 400px;
+    }
+    .description{
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .container2{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .content1{
+        display: grid;
+        grid-column: 1/2;
+        place-items:center;
+        
+    }
+    .content2{
+        display: grid;
+        grid-column: 2/3;
+        place-items: center;
+    }
+    .flower{
+        max-width: 550px;
+    }
+    .description{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}
+
+

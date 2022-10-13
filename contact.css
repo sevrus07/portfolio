@@ -45,7 +45,7 @@ body{
 }
 
 .imgcontact{
-    width:100%;
+    width:95%;
     object-fit: contain;
     place-items: center;
 }
@@ -58,10 +58,20 @@ body{
 h1{
    font-family: 'Alegreya Sans SC', sans-serif;
 }
+.Resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1rem;
+}
 .imglink{
     width: 100%;
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 60px;
+    max-height: 60px;
     object-fit: contain;
     vertical-align: middle;
 }

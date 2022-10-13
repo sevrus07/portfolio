@@ -57,10 +57,20 @@ body{
     background-color: #2b2b2b;
 
 }
+.content3{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: center;
+    background-color: #2b2b2b;
+    gap: 1rem;
+}
+.content3 img{
+    width: 60px;
+}
 
-.flower{
-    
-    width: 100%;
+.flower{ 
+    width: 80%;
 }
 .where{
     width: 100%;

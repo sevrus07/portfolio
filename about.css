@@ -41,28 +41,28 @@ body{
 /* CONTENT! CONTENT! CONTENT! */
 
 .container2{
-    background-color: #2b2b2b;
+    background-color: #f5f5f5;
     padding: 3rem;
     margin: 0.3rem;
     place-items: center center;
-    display: grid;
+    display: flex;
+    justify-content: right;
+    align-items: right;
     box-shadow: 0 10px 10px rgb(3, 3, 3);
 }
 .content1{
     padding:1rem;
-    background-color: #2b2b2b;
+    background-color: #f5f5f5;
 }
 .content2{
     padding:1rem;
-    background-color: #2b2b2b;
+    background-color: #f5f5f5;
 
 }
 .content3{
-    display: flex;
-    justify-content: right;
-    align-items: right;
+    
     text-align: center;
-    background-color: #2b2b2b;
+    background-color: #f5f5f5;
     gap: 1rem;
 }
 .content3 img{
@@ -81,7 +81,7 @@ body{
 .description{
     grid-column: 2/3;
     grid-row: 2;
-    color: #f5f5f5;
+    color: #0a0a0a;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
